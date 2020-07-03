@@ -16,3 +16,10 @@ With: line-bot-sdk-python, flask, googletrans, gtts, https://opendata.cwb.gov.tw
 
 #### Flex reply
 <img src="https://github.com/m1596284/Line_Bot/blob/master/Line_flex_reply.gif" width="386" height="459">
+
+#### Google translator : text to text
+<img src="https://github.com/m1596284/Line_Bot/blob/master/Line_translator_reply.gif" width="386" height="459">
+
+#### Google translator : text to voice
+<img src="https://github.com/m1596284/Line_Bot/blob/master/Line_voice_reply.gif" width="386" height="459">
+
