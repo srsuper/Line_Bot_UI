@@ -7,5 +7,6 @@ Line_Bot_IU, an auto-reply bot in Line app, include functions as below:
 
 ### Text reply
 <img src="https://github.com/m1596284/Line_Bot/blob/master/Line_text_reply.gif" width="386" height="459">
+
 ### Image reply
 <img src="https://github.com/m1596284/Line_Bot/blob/master/Line_image_reply.gif" width="386" height="459">
