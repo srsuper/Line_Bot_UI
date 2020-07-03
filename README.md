@@ -6,4 +6,4 @@ Line_Bot_IU, an auto-reply bot in Line app, include functions as below:
 4. Multiple language translator with pronunciation or spelling.
 
 ### Image reply
-<img src="https://github.com/m1596284/Line_Bot/blob/master/Line_text_reply.gif" width="100" height="100">
+<img src="https://github.com/m1596284/Line_Bot/blob/master/Line_text_reply.gif" width="400" height="400">
