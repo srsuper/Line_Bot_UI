@@ -9,7 +9,7 @@ Line_Bot_IU, an auto-reply bot in Line app, include functions as below:
 With: line-bot-sdk-python, flask, googletrans, gtts, https://opendata.cwb.gov.tw/api
 
 #### Text reply, Image reply, Flex reply
-<img src="https://i.imgur.com/oSIJcfP.gif" width="280" height="364"><img src="https://i.imgur.com/7oFoO6s.gif" width="280" height="364"><img src="https://i.imgur.com/O5WhPqm.gif" width="280" height="364">
+<img src="https://i.imgur.com/oSIJcfP.gif" width="270" height="364"><img src="https://i.imgur.com/7oFoO6s.gif" width="270" height="364"><img src="https://i.imgur.com/O5WhPqm.gif" width="270" height="364">
 
 #### Capture IG picture, multiplo-pics, video
 <img src="https://i.imgur.com/Z9TcdBA.gif" width="306" height="364"><img src="https://i.imgur.com/lC1BTDR.gif" width="306" height="364"><img src="https://i.imgur.com/WQQu8qf.gif" width="306" height="364">
