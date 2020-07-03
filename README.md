@@ -11,6 +11,12 @@ With: line-bot-sdk-python, flask, googletrans, gtts, https://opendata.cwb.gov.tw
 #### Text reply, Image reply, Flex reply
 <img src="https://i.imgur.com/oSIJcfP.gif" width="306" height="364"><img src="https://i.imgur.com/7oFoO6s.gif" width="306" height="364"><img src="https://i.imgur.com/O5WhPqm.gif" width="306" height="364">
 
+#### Capture IG picture, multiplo-pics, video
+<img src="https://i.imgur.com/Z9TcdBA.gif" width="306" height="364"><img src="https://i.imgur.com/lC1BTDR.gif" width="306" height="364"><img src="https://i.imgur.com/WQQu8qf.gif" width="306" height="364">
+
+#### Capture Facebook, Douyin(Tik tok), Youtube
+<img src="https://i.imgur.com/BLSu29u.gif" width="306" height="364"><img src="https://i.imgur.com/vSVHlFH.gif" width="306" height="364"><img src="https://i.imgur.com/PLFW8as.gif" width="306" height="364">
+
 #### Google translator : text to text, text to voice
 <img src="https://i.imgur.com/aEiRjRr.gif" width="306" height="364"><img src="https://i.imgur.com/Ez7icPW.gif" width="306" height="364">
 
