@@ -14,3 +14,4 @@ With: line-bot-sdk-python, flask, googletrans, gtts, https://opendata.cwb.gov.tw
 #### Google translator : text to text, text to voice
 <img src="https://github.com/m1596284/Line_Bot/blob/master/Line_translator_reply.gif" width="336" height="400"><img src="https://github.com/m1596284/Line_Bot/blob/master/Line_voice_reply.gif" width="336" height="400">
 
+
