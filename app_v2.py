@@ -18,8 +18,8 @@ import re
 from pytube import YouTube
 pyPath = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
-line_bot_api = LineBotApi('o8fD6THE8hJzaW+h7Z1URohpxg435jJNAeNsiQwTxDSsnYcvsMcpA/xQdtlOEI22IYBB8C2fJSZLCBHGRpCvpmwSR7yvuOv4EnRt0ZdtmZbAppycCjHi8QrS56S51QRw8N2GZVnC3BSSglPwCxwHhwdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('6f68e31f500ad0e38b9a1e106897dc7c')
+line_bot_api = LineBotApi('3ckCQeHp+WMyT1LYRkdApHoRucfJJiufV/lvr2qWnODDrx8FGcGF9HcjbA4ZlySWXn7/bvTx+0IGoCTYMzecGXGMLuTGoy1Qf2ZFr0RclVLEoyNZcuEjqGRxesPDQQwXEPKU1q2JTMSzfuo3JZIN+wdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('dc3e513abb672e4764348401d67af1ac')
 
 # 接收 LINE 的資訊
 @app.route("/callback", methods=['POST'])
@@ -121,27 +121,27 @@ def handle_message(event):
             num =-1
     # Call back start
     if  key == "HELP" or key == "H" or key == "-H": # Help for IU 
-        Strrr = "IU Line Bot v2.9" + "\n" \
-                "IU : 隨機IU" + "\n" \
-                "UU 5 : 倒數第5張IU" + "\n" \
-                "UUU 5 : 我的最愛第5張IU" + "\n" \
-                "Love 2 : 將倒數第2張IU加入最愛" + "\n" \
-                "Delete 1: 將倒數第1張圖片移除" + "\n" \
-                "OO : 歐美" + "\n" \
-                "CC : Cosplay" + "\n" \
-                "MM : 台灣妹子" + "\n" \
-                "PP : 18禁" + "\n" \
-                "貼上IG連結自動分析是單張照片 多張照片 影片 限時動態, 然後展開出來" + "\n" \
-                "貼上抖音連結自展開出來" + "\n" \
-                "貼上Youtube連結 自動展開" + "\n" \
-                "貼上moptt連結 自動展開圖片" + "\n" \
-                "天氣 : 目前台北的天氣"  + "\n" \
-                "#iu : 搜尋最新IG的#iu" + "\n" \
-                "#iu 10 : 搜尋第10個最新的#iu" + "\n" \
-                "@iu : 搜尋最新IG的@iu" + "\n" \
-                "@iu 10 : 搜尋第10個最新的@iu" + "\n" \
-                "英文 吃飯 : 將吃飯翻譯成英文, 支援 中文 英文 日文 韓文 簡中" + "\n" \
-                "發音 韓文 吃飯 : 將吃飯翻譯成韓文 然後用韓文發音唸出"
+        Strrr = "IU Line Bot v2.9" + "\ n" \
+                "IU: สุ่ม IU" + "\ n" \
+                "UU 5: IU คนที่ 5 จากด้านล่าง" + "\ n" \
+                "UUU 5: IU หมายเลข 5 ที่ฉันชอบ" + "\ n" \
+                "Love 2: เพิ่ม IU คนที่สองในรายการโปรด" + "\ n" \
+                "ลบ 1: ลบภาพแรกจากด้านล่าง" + "\ n" \
+                "OO: ยุโรปและอเมริกา" + "\ n" \
+                "CC: คอสเพลย์" + "\ n" \
+                "MM: สาวไต้หวัน" + "\ n" \
+                "PP: 18 แบน" + "\ n" \
+                "วางลิงก์ IG เพื่อวิเคราะห์รูปภาพเดียวรูปภาพวิดีโอหลายภาพและการเปลี่ยนแปลงที่ จำกัด เวลาโดยอัตโนมัติจากนั้นขยายออก" + "\ n" \
+                "วางลิงก์ vibrato และขยายโดยอัตโนมัติ" + "\ n" \
+                "วางลิงก์ Youtube เพื่อขยายอัตโนมัติ" + "\ n" \
+                "วางลิงก์ moptt เพื่อขยายรูปภาพโดยอัตโนมัติ" + "\ n" \
+                "สภาพอากาศ: สภาพอากาศปัจจุบันในไทเป" + "\ n" \
+                "#iu: ค้นหา IG ล่าสุด #iu" + "\ n" \
+                "#iu 10: ค้นหา #iu 10 ล่าสุด" + "\ n" \
+                "@iu: ค้นหา IG ล่าสุด @iu" + "\ n" \
+                "@iu 10: ค้นหา @iu 10 ล่าสุด" + "\ n" \
+                "การรับประทานอาหารเป็นภาษาอังกฤษ: การแปลมื้ออาหารเป็นภาษาอังกฤษรองรับภาษาจีนอังกฤษญี่ปุ่นเกาหลีจีนตัวย่อ" + "\ n" \
+                "ออกเสียงภาษาเกาหลีว่ากิน: แปลมื้ออาหารเป็นภาษาเกาหลีและออกเสียงเป็นภาษาเกาหลี"
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text=Strrr))
     if  key[0:28] == "https://www.instagram.com/p/": # Instagram
         shortcode = key[28:39]

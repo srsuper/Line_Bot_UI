@@ -15,8 +15,8 @@ def winEnumHandler(hwnd,ctx):
         windows_list.append(win32gui.GetWindowText(hwnd))
 
 pyPath = os.path.dirname(os.path.abspath(__file__))
-line_bot_api = LineBotApi('YOUR_LineBot_Channel access token')
-to = "YOUR ROOM ID" # Room
+line_bot_api = LineBotApi('3ckCQeHp+WMyT1LYRkdApHoRucfJJiufV/lvr2qWnODDrx8FGcGF9HcjbA4ZlySWXn7/bvTx+0IGoCTYMzecGXGMLuTGoy1Qf2ZFr0RclVLEoyNZcuEjqGRxesPDQQwXEPKU1q2JTMSzfuo3JZIN+wdB04t89/1O/w1cDnyilFU=')
+to = "1654167585" # Room
 while True:
     windows_list =[]
     win32gui.EnumWindows(winEnumHandler, None)
