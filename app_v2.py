@@ -18,8 +18,8 @@ import re
 from pytube import YouTube
 pyPath = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
-line_bot_api = LineBotApi('6xrHp5+Ph+A9AYvxe1P+yq6l0MVgirGRUMycXPj+6O6vjwaGeg8IO68VHBO7srjSpUWC0k7HSmNgSGLQf+GCG3WdtaCf2YbqcSW0foQWxRhtfv4F8Y5bb21zRiVYRN3fzSqvDqK2mMhTLHO+ezAFsQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('facd3a13c8d4a4e6e7c6ed83f8d29837')
+line_bot_api = LineBotApi('yBZc3B7yxD2Afe8H/npJcqL96QrxQUtzd1ua/CzfKxP6HMTJpQultDheBaa4tuy611xlDUqtS4inRcjnbbiFxECSt/g4k7t4KRl2ObgKzPTgK8VM9ryMmFLjtLBrTInmNK3AP1DzpT5kTAYoBdK0yAFIS9xybk1bpjJUhI9NTk0=')
+handler = WebhookHandler('15a21aec7a0c6f363b3c264c1c97da4f')
 
 # 接收 LINE 的資訊
 @app.route("/callback", methods=['POST'])
